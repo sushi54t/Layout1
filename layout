@@ -1,0 +1,196 @@
+<html lang="en">
+<head>
+<title>Trinkerr</title>
+<style>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+ background: #ff726f;
+  border:white; 
+  border-width:10px; 
+  border-style:solid;
+}
+
+h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  line-height: 100px;
+  
+}
+
+.circleBase {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: Black;
+    border: 3px solid blue;
+    color: white;
+     }
+
+div2 {
+  width: 1000px;
+  height: 100px;
+  
+  
+  
+}
+div3 {
+  width: 100px;
+  
+}
+div4 {
+  width: 100px;
+  
+}
+div5 {
+  width: 100px;
+  
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  border:white; 
+  border-width:10px; 
+  border-style:solid;
+  
+}
+
+nav {
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 100px;
+  
+  
+  
+}
+
+nav1 {
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 100px;
+  order: 1;
+  
+}
+
+
+
+
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+  
+}
+
+nav1 ul {
+  list-style-type: none;
+  padding: 10px;
+  justify-content: space-evenly;
+  
+}
+
+article {
+  flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background: #ff726f;
+  padding: 10px;
+  border:white; 
+  border-width:10px; 
+  border-style:solid;
+}
+
+
+footer {
+  
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+ 
+
+
+
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  
+  
+}
+
+section {
+  display: flex;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+
+</style>
+
+</head>
+<body>
+
+  <h2>
+  <div class="circleBase"></div>
+  <div2> Home </div2>
+  <div3> careers</div3>
+  <div4> Login</div4>
+  <div5> About</div5>
+  
+  </h2>
+
+
+<section>
+  <nav>
+<ul>
+     <li><a href="#">My board</a></li>
+      <li><a href="#">Social board</a></li>
+      <li><a href="#">Orders</a></li>
+  <li><a href="#">My board</a></li>
+      <li><a href="#">Social board</a></li>
+      <li><a href="#">Orders</a></li>
+    </ul>
+</nav>
+  <nav1>
+<ul>
+      <li><a href="#">My board</a></li>
+      <li><a href="#">Social board</a></li>
+      <li><a href="#">Orders</a></li>
+  <li><a href="#">My board</a></li>
+      <li><a href="#">Social board</a></li>
+      <li><a href="#">Orders</a></li>
+    </ul>
+</nav1>
+  
+  
+  <article>
+    <h1>Trinkerr</h1>
+    <p>Trinkerr is india's leading social trading platform</p>
+    <p>Come and join us in the journey</p>
+    <p> Sign up now</p>
+  </article>
+  </section>
+    
+  
+
+<footer>
+  <div> Contact Us</div>
+    <div> Support</div>
+
+</footer>
+  
+
+</body>
+</html>
